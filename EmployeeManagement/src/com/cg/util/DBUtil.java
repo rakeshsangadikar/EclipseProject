@@ -26,6 +26,7 @@ public class DBUtil {
 			String pass = props.getProperty("password");
 			con = DriverManager.getConnection(url, user, pass);
 			System.out.println("Successfully commited");
+			System.out.println("ajfnjksf");
 			return con;
 		}catch(ClassNotFoundException e){
 			e.printStackTrace();
